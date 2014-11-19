@@ -1,0 +1,53 @@
+|newCU
+SW[0] => Mux4.IN15
+SW[1] => Mux4.IN14
+SW[2] => State[3].ACLR
+SW[2] => State[2].ACLR
+SW[2] => State[1].ACLR
+SW[2] => State[0].ACLR
+SW[3] => Mux1.IN15
+SW[3] => Mux0.IN15
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+KEY[0] => State[3].CLK
+KEY[0] => State[2].CLK
+KEY[0] => State[1].CLK
+KEY[0] => State[0].CLK
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+LEDR[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= Meminst~0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= JMPmux~0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= seg7:seven_segment.port1
+HEX0[1] <= seg7:seven_segment.port1
+HEX0[2] <= seg7:seven_segment.port1
+HEX0[3] <= seg7:seven_segment.port1
+HEX0[4] <= seg7:seven_segment.port1
+HEX0[5] <= seg7:seven_segment.port1
+HEX0[6] <= seg7:seven_segment.port1
+
+
+|newCU|seg7:seven_segment
+SW[0] => Decoder0.IN3
+SW[1] => Decoder0.IN2
+SW[2] => Decoder0.IN1
+SW[3] => Decoder0.IN0
+HEX3[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX3[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX3[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX3[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX3[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX3[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX3[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

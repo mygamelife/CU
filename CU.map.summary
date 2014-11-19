@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Nov 19 17:46:57 2014
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : CU
+Top-level Entity Name : newCU
+Family : Cyclone II
+Total logic elements : 18
+    Total combinational functions : 18
+    Dedicated logic registers : 3
+Total registers : 3
+Total pins : 29
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

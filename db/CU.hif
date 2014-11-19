@@ -1,0 +1,143 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+989
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+newCU
+# storage
+db|CU.(0).cnf
+db|CU.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+newCU.v
+9573698d164c26938dd5f13e98d9bcf7
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+start
+0000
+PARAMETER_UNSIGNED_BIN
+DEF
+fetch
+0001
+PARAMETER_UNSIGNED_BIN
+DEF
+decode
+0010
+PARAMETER_UNSIGNED_BIN
+DEF
+load
+1000
+PARAMETER_UNSIGNED_BIN
+DEF
+store
+1001
+PARAMETER_UNSIGNED_BIN
+DEF
+add
+1010
+PARAMETER_UNSIGNED_BIN
+DEF
+sub
+1011
+PARAMETER_UNSIGNED_BIN
+DEF
+inputs
+1100
+PARAMETER_UNSIGNED_BIN
+DEF
+jz
+1101
+PARAMETER_UNSIGNED_BIN
+DEF
+jpos
+1110
+PARAMETER_UNSIGNED_BIN
+DEF
+halt
+1111
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+seg7
+# storage
+db|CU.(1).cnf
+db|CU.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+seg7.v
+1a1dd912f89a7550b2111c5412f6594
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+seg7:seven_segment
+}
+# macro_sequence
+
+# end
+# complete
+
